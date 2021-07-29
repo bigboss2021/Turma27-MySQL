@@ -46,12 +46,15 @@ VALUES
 ("xaropegripe",70.00,"charopmil",26,30.00,4);
 
 select * from tb_produto where valor >50.00;
-select * from tb_produto where valor >50.00;
+select * from tb_produto where valor <50.00;
 select * from  tb_produto where valor  between 3.00 and 60.00;
 select * from  tb_produto where nome like "%b%";
-select *from tb_produto inner join tb_categoria  on remedio_comum_id = tb_produto.remedio_comum_id;
 
-select *from tb_categoria inner join tb_produto on remedio_comum_id = tb_produto.remedio_comum_id
-where tb_categoria.tb_produto = "5"
+select *from tb_categoria inner join tb_produto  on remedio_comum_id = tb_produto.remedio_comum_id;
 
+select *from tb_produto inner join tb_categoria on remedio_comum_id = remedio_comum_id.tb
+where tb_categoria.tb_produto = "cosmetico"
 
+-- select * from tb_categoria inner join tb_produto on tb_categoria.id=tb_produto.id_produto;
+-- select * from tb_categoria inner join tb_produto on tb_categoria.id=tb_produto.id_produto
+-- where  tb_categoria.tipo= "Para tosse";

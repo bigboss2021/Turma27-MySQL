@@ -361,3 +361,848 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-26 15:00:01.880
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OnETkTsZ => OK
+!SESSION 2021-07-28 11:43:32.257 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 4 567 2021-07-28 11:43:52.317
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2021-07-28 11:43:52.317
+!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2021-07-28 11:43:52.326
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-28 11:43:58.313
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-28 11:43:58.313
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4abdd5e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66d61298,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:09.021
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:09.021
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@541f2447[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:09.029
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:09.117
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-28 11:44:12.026
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-28 11:44:12.059
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:26.925
+!MESSAGE Boot LS startup time from start to initialized: 17880ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.660
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lZZhvyOFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.707
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.711
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.713
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.715
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.720
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lZZhvyOF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.738
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.746
+!MESSAGE buffering callback sts4.classpath.lZZhvyOF Hello false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:27.747
+!MESSAGE executing callback sts4.classpath.lZZhvyOF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:44:29.769
+!MESSAGE executing callback sts4.classpath.lZZhvyOF FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-28 11:44:29.770
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-07-28 11:47:25.287
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:34.575
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:36.979
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:41.285
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:47:41.288
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-07-28 11:47:41.290
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:47:41.304
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:47:41.315
+!MESSAGE buffering callback sts4.classpath.lZZhvyOF blogPessoal false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:47:41.316
+!MESSAGE executing callback sts4.classpath.lZZhvyOF 1 batched events
+
+!ENTRY Activator 1 0 2021-07-28 11:47:41.890
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:41.915
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:42.178
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 11:47:42.293
+!MESSAGE executing callback sts4.classpath.lZZhvyOF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-28 11:47:42.332
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:42.705
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:43.987
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 11:47:43.988
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-28 11:48:45.254
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-28 11:48:45.254
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d91e1ba,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c8ae2c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-28 12:30:06.478
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-07-28 12:30:54.803
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:30:54.812
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:30:55.676
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:30:55.748
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 12:32:12.935
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 12:40:48.241
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 12:44:03.139
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:03.145
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:10.008
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:10.058
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 12:44:10.079
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 12:44:10.100
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 12:44:10.128
+!MESSAGE buffering callback sts4.classpath.lZZhvyOF blogPessoal false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 12:44:10.130
+!MESSAGE executing callback sts4.classpath.lZZhvyOF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 12:44:10.511
+!MESSAGE executing callback sts4.classpath.lZZhvyOF SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-28 12:44:10.598
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:10.650
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:12.065
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:44:12.249
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:54.093
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:54.096
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:54.441
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:54.483
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:55.154
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 12:47:55.159
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:00:08.511
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:00:08.517
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:00:09.145
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:00:09.168
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 13:02:28.459
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 13:13:28.701
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:13:28.704
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:13:29.452
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:13:29.454
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:47:58.330
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:47:58.332
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:47:59.145
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:47:59.156
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:48:21.346
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:48:21.350
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:48:21.698
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:48:21.699
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:49:33.040
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:49:33.041
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 13:49:33.781
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 13:49:33.793
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 13:56:37.037
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 14:12:23.006
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:23.008
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:23.614
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:23.693
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:29.944
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:29.946
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:30.581
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:12:30.586
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 14:19:03.680
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 14:20:29.319
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:20:29.330
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:20:30.271
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:20:30.287
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 14:25:38.728
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 14:27:36.352
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:27:36.488
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:27:37.203
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:27:37.208
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:30:45.614
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:30:45.614
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 14:30:46.265
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 14:30:46.294
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 16:06:48.137
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 16:07:50.732
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 16:07:50.733
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 16:07:52.811
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 16:07:52.888
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 16:07:53.010
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 16:07:53.033
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 16:09:22.979
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 16:09:22.982
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 16:09:23.836
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 16:09:23.840
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 18:17:39.475
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-28 21:11:13.763
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY Activator 1 0 2021-07-28 21:12:04.235
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 21:12:04.236
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:12:26.420
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 21:12:26.425
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:12:38.430
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 21:12:38.431
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:14:01.444
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lZZhvyOF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:14:01.445
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lZZhvyOF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:14:01.446
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:14:01.500
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lZZhvyOF => OK
+!SESSION 2021-07-28 21:14:31.055 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-28 21:29:48.095
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-28 21:29:48.096
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dce481b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22cb8e5f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:15.498
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:15.500
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@273d49b9[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:15.577
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:15.792
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-28 21:30:19.605
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:30:19.629
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-28 21:30:20.318
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:35.539
+!MESSAGE Boot LS startup time from start to initialized: 19949ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.042
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ACuQZKnXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.054
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.058
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.060
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.061
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.062
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ACuQZKnX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.501
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.512
+!MESSAGE buffering callback sts4.classpath.ACuQZKnX blogPessoal false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.514
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.526
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.535
+!MESSAGE buffering callback sts4.classpath.ACuQZKnX Hello false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:36.537
+!MESSAGE executing callback sts4.classpath.ACuQZKnX 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 21:30:38.053
+!MESSAGE executing callback sts4.classpath.ACuQZKnX SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 21:36:08.182
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-28 21:36:53.582
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-28 21:39:55.254
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:39:55.261
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 21:39:57.274
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:39:57.279
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-28 21:40:04.357
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-07-28 21:40:09.673
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 21:40:09.674
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:02:07.902
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:02:08.042
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:02:08.767
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:02:08.807
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.601
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.605
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.704
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.721
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.805
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:06:20.855
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.jface 2 0 2021-07-28 22:19:45.413
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-28 22:19:45.413
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@534ce3eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16a733ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-07-28 22:19:50.589
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:19:50.592
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:19:54.038
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:19:54.039
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:20:02.331
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:20:02.332
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-28 22:20:02.567
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-28 22:20:02.567
+!MESSAGE Has main method computation for project 'blogPessoal'

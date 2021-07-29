@@ -50,6 +50,9 @@ select *from tb_pizza inner join tb_categoria  on categoria_id = tb_pizza.catego
 select *from tb_pizza inner join tb_categoria  on categoria_id = tb_pizza.categoria_id
 where tb_categoria.tipo_pizza = "doce"
 
+select * from tb_categoria inner join tb_produto on tb_categoria.id=tb_produto.id_produto;
+select * from tb_categoria inner join tb_produto on tb_categoria.id=tb_produto.id_produto
+where  tb_categoria.tipo= "Para tosse";
 -- usar where para busca coisas especifica . 
  
 
