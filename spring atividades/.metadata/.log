@@ -1206,3 +1206,661 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY Activator 1 0 2021-07-28 22:20:02.567
 !MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 22:32:29.501
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ACuQZKnX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 22:32:29.624
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ACuQZKnX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 22:32:29.626
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-28 22:32:29.627
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ACuQZKnX => OK
+!SESSION 2021-07-29 09:47:33.963 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-29 09:48:09.581
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-29 09:48:09.581
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@22cb8e5f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45753c22,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:48:37.989
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:48:37.990
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1b3a21c3[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:48:38.042
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:48:38.328
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-29 09:48:42.829
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 09:48:42.850
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-29 09:48:43.472
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:20.273
+!MESSAGE Boot LS startup time from start to initialized: 42221ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.347
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sRbDOyVEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.387
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.391
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.393
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.394
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:21.395
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.sRbDOyVE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.222
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.237
+!MESSAGE buffering callback sts4.classpath.sRbDOyVE blogPessoal false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.241
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.260
+!MESSAGE classpath=72 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.273
+!MESSAGE buffering callback sts4.classpath.sRbDOyVE Hello false 72
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:22.274
+!MESSAGE executing callback sts4.classpath.sRbDOyVE 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-29 09:49:24.349
+!MESSAGE executing callback sts4.classpath.sRbDOyVE FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-29 09:49:24.351
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-29 09:53:27.183
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-07-29 09:59:36.409
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 09:59:36.437
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 09:59:38.273
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 09:59:38.277
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 09:59:45.568
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 09:59:45.573
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:00:38.495
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:00:38.497
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:00:39.240
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:00:39.311
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:01:01.521
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:01:01.523
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:01:02.179
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:01:02.184
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-29 10:06:44.222
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-29 10:07:38.305
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-29 10:07:38.305
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60f66861,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@690e281f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-07-29 10:08:08.986
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:08:08.987
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:08:10.824
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:08:10.872
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:20.458
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:20.462
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:21.062
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:21.085
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:29.053
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:29.062
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:29.679
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 10:14:29.680
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 11:04:35.255
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 11:04:35.468
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY Activator 1 0 2021-07-29 11:04:36.030
+!MESSAGE Has main method computation for project 'Hello'
+
+!ENTRY Activator 1 0 2021-07-29 11:04:36.031
+!MESSAGE Has main method computation for project 'blogPessoal'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 2 2021-07-29 18:57:59.086
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:164)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:158)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:306)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:299)
+	at org.eclipse.ui.SubActionBars.setGlobalActionHandler(SubActionBars.java:549)
+	at org.eclipse.jdt.ui.actions.OpenEditorActionGroup.setGlobalActionHandlers(OpenEditorActionGroup.java:150)
+	at org.eclipse.jdt.ui.actions.OpenEditorActionGroup.fillActionBars(OpenEditorActionGroup.java:128)
+	at org.eclipse.jdt.internal.ui.actions.CompositeActionGroup.fillActionBars(CompositeActionGroup.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.BasicJavaEditorActionContributor.setActiveEditor(BasicJavaEditorActionContributor.java:207)
+	at org.eclipse.jdt.internal.ui.javaeditor.BasicCompilationUnitEditorActionContributor.setActiveEditor(BasicCompilationUnitEditorActionContributor.java:148)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditorActionContributor.setActiveEditor(CompilationUnitEditorActionContributor.java:65)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:335)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:329)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:218)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:249)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:246)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:770)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1510)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1473)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2970)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2266)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:5441)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Canvas.java:437)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4832)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1107)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3455)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1074)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.setFocus(AbstractTextEditor.java:6186)
+	at org.eclipse.ui.texteditor.StatusTextEditor.setFocus(StatusTextEditor.java:149)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.setFocus(JavaEditor.java:2343)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:226)
+	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:325)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:247)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:792)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$1.setFocus(ContributedPartRenderer.java:106)
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:379)
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2678)
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1062)
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3968)
+	at org.eclipse.swt.custom.CTabFolder.setItemSize(CTabFolder.java:2857)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3839)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3772)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2119)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1048)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:5462)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:360)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1718)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4837)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5692)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4850)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3272)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1054)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3233)
+	at org.eclipse.swt.widgets.Control.setSizeInPixels(Control.java:3774)
+	at org.eclipse.swt.widgets.Control.setSize(Control.java:3804)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2212)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2182)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.adjustTopRight(StackRenderer.java:746)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.hideChild(StackRenderer.java:901)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:897)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2087)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1719)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1108)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1091)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-07-29 18:58:00.503
+!MESSAGE An exception occurred while notifying part listeners
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.e4.core.contexts.IEclipseContext.get(java.lang.Class)" because "context" is null
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:164)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.registerLegacyHandler(LegacyHandlerService.java:158)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:306)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.activateHandler(LegacyHandlerService.java:299)
+	at org.eclipse.ui.SubActionBars.setGlobalActionHandler(SubActionBars.java:549)
+	at org.eclipse.jdt.ui.actions.OpenEditorActionGroup.setGlobalActionHandlers(OpenEditorActionGroup.java:150)
+	at org.eclipse.jdt.ui.actions.OpenEditorActionGroup.fillActionBars(OpenEditorActionGroup.java:128)
+	at org.eclipse.jdt.internal.ui.actions.CompositeActionGroup.fillActionBars(CompositeActionGroup.java:68)
+	at org.eclipse.jdt.internal.ui.javaeditor.BasicJavaEditorActionContributor.setActiveEditor(BasicJavaEditorActionContributor.java:207)
+	at org.eclipse.jdt.internal.ui.javaeditor.BasicCompilationUnitEditorActionContributor.setActiveEditor(BasicCompilationUnitEditorActionContributor.java:148)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditorActionContributor.setActiveEditor(CompilationUnitEditorActionContributor.java:65)
+	at org.eclipse.ui.internal.EditorActionBars.partChanged(EditorActionBars.java:335)
+	at org.eclipse.ui.internal.WorkbenchPage.updateActivations(WorkbenchPage.java:329)
+	at org.eclipse.ui.internal.WorkbenchPage$E4PartListener.partActivated(WorkbenchPage.java:218)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$2.run(PartServiceImpl.java:249)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.firePartActivated(PartServiceImpl.java:246)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:770)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.activate(PartServiceImpl.java:679)
+	at org.eclipse.e4.ui.internal.workbench.swt.AbstractPartRenderer.activate(AbstractPartRenderer.java:97)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.lambda$0(ContributedPartRenderer.java:63)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1510)
+	at org.eclipse.swt.widgets.Shell.setActiveControl(Shell.java:1473)
+	at org.eclipse.swt.widgets.Control.sendFocusEvent(Control.java:2970)
+	at org.eclipse.swt.widgets.Widget.wmSetFocus(Widget.java:2266)
+	at org.eclipse.swt.widgets.Control.WM_SETFOCUS(Control.java:5441)
+	at org.eclipse.swt.widgets.Canvas.WM_SETFOCUS(Canvas.java:437)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4832)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SetFocus(Native Method)
+	at org.eclipse.swt.widgets.Control.forceFocus(Control.java:1107)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3455)
+	at org.eclipse.swt.widgets.Composite.setFocus(Composite.java:1074)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.setFocus(AbstractTextEditor.java:6186)
+	at org.eclipse.ui.texteditor.StatusTextEditor.setFocus(StatusTextEditor.java:149)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaEditor.setFocus(JavaEditor.java:2343)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.delegateSetFocus(CompatibilityPart.java:226)
+	at jdk.internal.reflect.GeneratedMethodAccessor78.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:325)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:247)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:147)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.focusGui(PartRenderingEngine.java:792)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer$1.setFocus(ContributedPartRenderer.java:106)
+	at org.eclipse.swt.custom.CTabItem.setFocus(CTabItem.java:379)
+	at org.eclipse.swt.custom.CTabFolder.setFocus(CTabFolder.java:2678)
+	at org.eclipse.swt.widgets.Control.fixFocus(Control.java:1062)
+	at org.eclipse.swt.widgets.Control.setVisible(Control.java:3968)
+	at org.eclipse.swt.custom.CTabFolder.setItemSize(CTabFolder.java:2857)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3839)
+	at org.eclipse.swt.custom.CTabFolder.updateItems(CTabFolder.java:3772)
+	at org.eclipse.swt.custom.CTabFolder.onResize(CTabFolder.java:2119)
+	at org.eclipse.swt.custom.CTabFolder.lambda$0(CTabFolder.java:337)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1048)
+	at org.eclipse.swt.widgets.Control.WM_SIZE(Control.java:5462)
+	at org.eclipse.swt.widgets.Scrollable.WM_SIZE(Scrollable.java:360)
+	at org.eclipse.swt.widgets.Composite.WM_SIZE(Composite.java:1718)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4837)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Scrollable.callWindowProc(Scrollable.java:91)
+	at org.eclipse.swt.widgets.Control.WM_WINDOWPOSCHANGED(Control.java:5692)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4850)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.SetWindowPos(Native Method)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3272)
+	at org.eclipse.swt.widgets.Composite.setBoundsInPixels(Composite.java:1054)
+	at org.eclipse.swt.widgets.Control.setBoundsInPixels(Control.java:3233)
+	at org.eclipse.swt.widgets.Control.setSizeInPixels(Control.java:3774)
+	at org.eclipse.swt.widgets.Control.setSize(Control.java:3804)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2212)
+	at org.eclipse.swt.widgets.Control.pack(Control.java:2182)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.adjustTopRight(StackRenderer.java:746)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.hideChild(StackRenderer.java:901)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:897)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:904)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:865)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:849)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:2087)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1719)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.Workbench$11.run(Workbench.java:1108)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1091)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
