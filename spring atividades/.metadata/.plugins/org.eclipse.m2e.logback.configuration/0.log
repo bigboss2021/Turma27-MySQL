@@ -1757,3 +1757,5 @@
 2021-08-02 20:19:33,228 [Worker-102: Launching farmacia_generation - FarmaciaGenerationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2021-08-02 20:19:33,229 [Worker-102: Launching farmacia_generation - FarmaciaGenerationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2021-08-02 20:19:33,229 [Worker-102: Launching farmacia_generation - FarmaciaGenerationApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ADMIN\Desktop\Turma27-MySQL\spring atividades\farmacia_generation\src\test\resources
+2021-08-03 09:17:32,206 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-08-04 10:12:54,021 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
