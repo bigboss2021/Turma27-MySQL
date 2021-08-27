@@ -167,3 +167,107 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-08-05 11:08:36.071
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-08-13 14:27:54.455 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-08-13 14:28:27.272
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-13 14:28:27.273
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e5c52fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@614361fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-13 14:28:37.144
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ADMIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-08-13 14:30:11.457
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:13.187
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:13.188
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@7afcc1ed[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:13.215
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:13.255
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-08-13 14:30:24.947
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY Activator 1 0 2021-08-13 14:30:27.507
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY Activator 1 0 2021-08-13 14:30:29.750
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY Activator 1 0 2021-08-13 14:30:31.387
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY Activator 1 0 2021-08-13 14:30:35.820
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY Activator 1 0 2021-08-13 14:30:38.003
+!MESSAGE Has main method computation for project 'bolgPessoal'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:40.971
+!MESSAGE Boot LS startup time from start to initialized: 27739ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.232
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iXjuknIUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.237
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.241
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.243
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.244
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.244
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iXjuknIU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.265
+!MESSAGE classpath=125 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.277
+!MESSAGE buffering callback sts4.classpath.iXjuknIU bolgPessoal false 125
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:41.278
+!MESSAGE executing callback sts4.classpath.iXjuknIU 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 14:30:42.649
+!MESSAGE executing callback sts4.classpath.iXjuknIU SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-08-13 16:31:09.211
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
